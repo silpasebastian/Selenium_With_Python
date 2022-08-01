@@ -11,6 +11,6 @@ driver.get("https://s1.demo.opensourcecms.com/wordpress/")
 driver.maximize_window()
 driver.find_element_by_xpath("//input[@id='weblog_title']").send_keys("VEcnussy")
 
-sleep(4)
+sleep(2)
 
 driver.close()
